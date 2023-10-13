@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styles2.css">
+    <link rel="stylesheet" href="../BOOTSTRAP/styles.css">
+    <title>Quipux</title>
+</head>
+<body>
+  <!--Header de la pagina-->
+    <header>
+        <div class="logo">
+            <img src="../imagenes/image.jpg" alt="Logo">
+        </div>
+
+        <div class="usuario">
+            Diego Gonzalez
+            <span class="icono"><i class="fa-regular fa-circle-user"></i></span>
+        </div>
+    </header>
+
+    <!--Menu-->
+    <div class="menu">
+      <nav class="navegacion">
+          <ul>
+              <li><a href="#">Estudiantes</a></li>
+              <li><a href="#">Grupos</a></li>
+              <li><a href="#" id="pagina">Materias</a></li>
+              <li><a href="#">Informes</a></li>
+          </ul>
+      </nav>
+
+      <!--Contenido-->
+      <main>
+        <p class="titulos">Administracion de estudiantes / <span>Materia</span></p>
+
+        <article>
+          <p class="titulos">Informacion de la materia</p>
+          <div class="container">
+            <div>
+                <p>Materia</p>
+                <select class="select2">
+                  <option>Seleccionar</option>
+                </select>
+            </div>
+            <div>
+                <p>Profesor</p>
+                <select class="select2">
+                    <option>Seleccionar</option>
+                </select>
+            </div>
+            <div>
+              <p>Grado(s)</p>
+              <select class="select">
+              </select>
+          </div>
+          </div>
+
+        </article>
+
+          <article>
+            <p class="titulos">Estudiantes</p>
+            <div class="container">
+              <div>
+                  <p>Estudiante</p>
+                  <select class="select2">
+                    <option>Seleccionar</option>
+                  </select>
+              </div>
+              <div>
+                  <p>Codigo estudiante</p>
+                  <select class="select3">
+                      <option>Seleccionar</option>
+                  </select>
+              </div>
+              <div class="buttonlink">
+                <button>Buscar</button>
+                <a href="#">Limpiar filtros</a>
+              </div>
+            </div>
+
+            <table class="table table-striped">
+              <thead>
+                <tr class="table-primary" >
+                  <th scope="col">Codigo</th>
+                  <th scope="col">Estudiante</th>
+                  <th scope="col">Grado</th>
+                  <th scope="col">Grupo</th>
+                  <th scope="col">Estado</th>
+                  <th scope="col">Nota promedio</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td scope="row">2022101</td>
+                  <td>Camila Fernández Rojas</td>
+                  <td>10</td>
+                  <td>A</td>
+                  <td><select class="select4"><option>En curso</option></select></td>
+                  <td><input type="text" class="nota"></td>
+                </tr>
+                <tr>
+                  <td scope="row">2022102</td>
+                  <td>Juan Felipe Montoya Rios</td>
+                  <td>9</td>
+                  <td>C</td>
+                  <td><select class="select4"><option>En curso</option></select></td>
+                  <td><input type="text" class="nota"></td>
+                </tr>
+                <tr>
+                  <td scope="row">2022103</td>
+                  <td>Luisa María Cruz Hernádez</td>
+                  <td>9</td>
+                  <td>B</td>
+                  <td><select class="select4"><option>En curso</option></select></td>
+                  <td><input type="text" class="nota"></td>
+                </tr>
+                <tr>
+                  <td scope="row">2022104</td>
+                  <td>Ana María Bedoya López</td>
+                  <td>8</td>
+                  <td>B</td>
+                  <td><select class="select4"><option>En curso</option></select></td>
+                  <td><input type="text" class="nota"></td>
+                </tr>
+                <tr>
+                  <td scope="row">2022105</td>
+                  <td>Santiago Sánchez Rivera</td>
+                  <td>7</td>
+                  <td>A</td>
+                  <td><select class="select4"><option>En curso</option></select></td>
+                  <td><input type="text" class="nota"></td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+
+          <div class="save">
+            <a href="materias.html"><button class="cancel">Cancelar</button></a>
+            <a href="materias.html"><button class="save1">Buscar</button></a>
+          </div>
+     </main>
+  </div>
+
+  <script src="https://kit.fontawesome.com/81ddcc3849.js" crossorigin="anonymous"></script>
+</body>
+</html>

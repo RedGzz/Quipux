@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styles1.css">
+    <link rel="stylesheet" href="../BOOTSTRAP/styles.css">
+    <title>Quipux</title>
+</head>
+<body>
+  <!--Header de la pagina-->
+    <header>
+        <div class="logo">
+            <img src="../imagenes/image.jpg" alt="Logo">
+        </div>
+
+        <div class="usuario">
+            Diego Gonzalez
+            <span class="icono"><i class="fa-regular fa-circle-user"></i></span>
+        </div>
+    </header>
+
+    <!--Menu-->
+    <div class="menu">
+      <nav class="navegacion">
+          <ul>
+              <li><a href="#">Estudiantes</a></li>
+              <li><a href="#">Grupos</a></li>
+              <li><a href="#" id="pagina">Materias</a></li>
+              <li><a href="#">Informes</a></li>
+          </ul>
+      </nav>
+
+      <!--Contenido-->
+      <main>
+          <p class="titulos">Administracion de estudiantes <span class="nr"><a href="administracion.html"><i class="fa-solid fa-plus"></i>  Nuevo registro</a></span></p>
+
+        <article>
+        <div class="container">
+          <div>
+              <p>Grado</p>
+              <select class="select">
+              </select>
+          </div>
+          <div>
+              <p>Grupo</p>
+              <select class="select">
+              </select>
+          </div>
+
+          <div>
+              <p>Materia</p>
+              <select class="select2">
+                <option>Seleccionar</option>
+              </select>
+          </div>
+          <div>
+              <p>Profesor</p>
+              <select class="select2">
+                  <option>Seleccionar</option>
+              </select>
+          </div>
+          <div class="buttonlink">
+            <button>Buscar</button>
+            <a href="#">Limpiar filtros</a>
+          </div>
+
+        </div>
+    </article>
+
+          <article>
+            <p class="titulos">Resultados</p>
+            <table class="table table-striped">
+              <thead>
+                <tr class="table-primary" >
+                  <th scope="col">Codigo</th>
+                  <th scope="col">Materia</th>
+                  <th scope="col">Profesor</th>
+                  <th scope="col">Grado</th>
+                  <th scope="col">Acciones</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td scope="row">S0COO1</td>
+                  <td>Geografía</td>
+                  <td>Fabio León Restrepo</td>
+                  <td>6,7,8,9,10,11</td>
+                  <td><a href="administracion.html"><i class="fa-regular fa-eye"></i></a><i class="fa-regular fa-trash-can"></i></td>
+                </tr>
+
+                <tr>
+                  <td scope="row">S0COO2</td>
+                  <td>Historia</td>
+                  <td>Jaime Alberto Giraldo</td>
+                  <td>6,7,8</td>
+                  <td><i class="fa-regular fa-eye"></i><i class="fa-regular fa-trash-can"></i></td>
+                </tr>
+
+                <tr>
+                  <td scope="row">S0COO3</td>
+                  <td>Filosofía</td>
+                  <td>Adriana María Zuluaga</td>
+                  <td>9,10,11</td>
+                  <td><i class="fa-regular fa-eye"></i><i class="fa-regular fa-trash-can"></i></td>
+                </tr>
+
+                <tr>
+                  <td scope="row">IDM001</td>
+                  <td>Español</td>
+                  <td>Fabiola Ramírez</td>
+                  <td>6,7,8,9,10,11</td>
+                  <td><i class="fa-regular fa-eye"></i><i class="fa-regular fa-trash-can"></i></td>
+                </tr>
+
+                <tr>
+                  <td scope="row">IDM001</td>
+                  <td>Español</td>
+                  <td>Fabiola Ramírez</td>
+                  <td>6,7,8,9,10,11</td>
+                  <td><i class="fa-regular fa-eye"></i><i class="fa-regular fa-trash-can"></i></td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+      </main>
+  </div>
+
+  <script src="https://kit.fontawesome.com/81ddcc3849.js" crossorigin="anonymous"></script>
+</body>
+</html>

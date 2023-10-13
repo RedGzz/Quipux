@@ -1,0 +1,10 @@
+$primary: #016691;
+$danger: #ff4136;
+
+$table-variants: (
+    "primary": $primary,
+    "danger": $danger
+);
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
